@@ -2,6 +2,8 @@ package weatherapp.weatherapp;
 
 public interface weather {
 
-    String getWeather();
+    String getSunnyWeather();
+
+    String getClodyWeather();
 
 }

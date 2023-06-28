@@ -20,7 +20,12 @@ public class restController {
 
     @GetMapping("/getWeather")
     public String getWeather() {
-        return myWeather.getWeather();
+        return myWeather.getSunnyWeather();
+    }
+
+    @GetMapping("/cloudy")
+    public String cloudy() {
+        return myWeather.getClodyWeather();
     }
 
     @GetMapping("/")
