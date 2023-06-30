@@ -10,7 +10,7 @@ public class WeatherTypes implements weather {
     }
 
     @Override
-    public String getClodyWeather() {
+    public String getCloudyWeather() {
 
         return "The Weather is Cloudy!";
     }

@@ -4,6 +4,6 @@ public interface weather {
 
     String getSunnyWeather();
 
-    String getClodyWeather();
+    String getCloudyWeather();
 
 }
